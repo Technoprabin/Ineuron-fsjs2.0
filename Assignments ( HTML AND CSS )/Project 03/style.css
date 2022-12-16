@@ -1,0 +1,185 @@
+/* T.Prabin Patra */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+    color: #000;
+    font-family: "Orbitron";
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 1rem 4rem 0;
+}
+
+.navbar-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.list li{
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-bottom: 2px solid #fff;
+}
+
+.list li:hover{
+    border-bottom: 2px solid #000;
+
+}
+
+.list li:first-child{
+    border-bottom: 2px solid #000;
+}
+
+img[alt=brand-logo]{
+
+    width: 110px;
+}
+
+.button-group{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.search-icon svg{ 
+    width: 20px;
+
+}
+
+.nav-button{
+    background-color: #fff;
+    padding: 5px 32px;
+    border-radius: 10px;
+    font-family: "Poppins";
+    font-size: 1rem;
+}
+
+.hero-container{
+    display: flex;
+    min-height: calc(100vh - 42px);
+    justify-content: space-between;
+}
+
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    max-width: 55%;
+    align-items: center;
+    justify-content: center;
+}
+
+img[alt="person-hero-iamge"]{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-heading{
+    font-size: 2.8rem;
+}
+
+.button-email{
+    background-color: #fff;
+    padding: 5px 32px;
+    font-family: "Orbitron";
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.button-join{
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    font-family: "Orbitron";
+    font-weight: 500;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+}
+
+.hero-description{
+    font-size: 0.8rem;
+    font-family: "Poppins";
+    padding-inline: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.contact-heading{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-family: "Poppins";
+    font-weight:500;
+}
+
+.icons{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.icons span img{
+    width: 30px;
+}
+
+.hero-container-right div:first-child{
+    width: 40%;
+    height: 100%;
+    position: relative;
+
+}
+
+img[alt="person-hero-iamge"]{
+    max-width: 280px !important;
+    max-height: 400px;
+    position: absolute;
+    top: 50%;
+    left:10%;
+    translate: 0 -50%;
+}
+
+.square img{
+    width: 280px;
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+
+}
+
+.globe img{
+    display: inline-block;
+    width: 45px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+}
+
+.star img{
+    display: inline-block;
+    position: absolute;
+}
+
+img[alt="start-pattern"]:first-child{
+    display: none;
+}
